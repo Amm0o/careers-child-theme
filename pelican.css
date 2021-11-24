@@ -1,0 +1,344 @@
+.pelican-container {
+  max-width: 1200px;
+  width: 1200px;
+  padding-top: 4rem;
+}
+
+.pelican-container a:hover {
+  color: #07757b;
+}
+
+.footer-container {
+  background: url('https://careersdev.xpand-it.com/wp-content/uploads/2017/11/img-2-xpand.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden
+}
+
+.pelican-pin {
+  width: 12px;
+  height: 16.5px;
+}
+
+.pelican-location {
+  font-size: 14px !important;
+  color: #bababa !important;
+  padding-left: 8px;
+  margin-right: 17px;
+}
+
+
+.pelican-location-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.pelican-footer-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#pelican-footer-logo {
+  width: 145.5px;
+  height: 45px;
+  margin-top: 2.5rem;
+}
+
+.pelica-news-btn {
+  display: block;
+  width: 220px;
+  height: 45px;
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px !important;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.6);
+  margin-top: 2rem;
+}
+
+.pelican-color-footer {
+  color: #bababa !important;
+  margin-top: 8rem;
+}
+
+.pelican-footer-left-links {
+  color: #bababa !important;
+  gap: 18%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.pelican-footer-imgs {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.pelican-footer-img {
+  /* padding-right: 2rem; */
+}
+
+.pelican-footer-1row {
+  display: flex;
+}
+
+.pelica-list-title {
+  color: #fff;
+  font-size: 0.9375rem;
+  margin-bottom: 0.4rem;
+}
+
+.pelican-list-link {
+  color: #bababa !important;
+  font-size: 0.9375rem;
+  padding-left: 0.4rem;
+}
+
+.pelican-right-footer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 10%;
+}
+
+.pelican-footer-list {
+  margin-bottom: 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .footer-container {
+    background: url('https://careers.xpand-it.com/wp-content/uploads/2017/11/768x1240.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .pelican-footer-left {
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .pelican-footer-left-links {
+    gap: 10%;
+    width: 50%;
+    justify-content: center;
+  }
+  .pelican-social-links {
+    gap: 12%;
+    justify-content: center;
+  }
+
+  .pelican-container {
+    width: 800px;
+  }
+  .pelican-footer-1row {
+    flex-direction: column;
+  }
+  .pelican-footer-1row {
+    gap: 10%;
+  }
+
+  .pelican-footer-left {
+    width: 100%;
+  }
+
+  .pelican-right-footer {
+    justify-content: center;
+    gap: 20%;
+    margin-top: 4rem;
+  }
+
+  .pelican-footer-imgs img {
+    margin-bottom: 3rem;
+  }
+
+  .pelican-footer-img {
+    margin-right: 0;
+  }
+
+  .pelican-footer-imgs {
+    flex-direction: column;
+  }
+  .pelican-footer-2-imgs {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.pelican-social-links {
+  display: flex;
+  gap: 8%;
+  margin-top: 2rem;
+}
+
+/* QUerie para 1024  */
+@media (max-width: 1025px) {
+  .pelican-container {
+    width: 1000px;
+  }
+
+  .pelican-right-footer {
+    gap: 28%;
+  }
+  .pelican-divider {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 769px) {
+  .footer-container {
+    background: url('https://careers.xpand-it.com/wp-content/uploads/2017/11/600x1100.png');
+    background-position-x: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .pelican-container {
+    width: 800px;
+  }
+
+  .pelican-footer-left {
+    align-items: center;
+  }
+
+  .pelican-social-links {
+    gap: 17%;
+    justify-content: center;
+  }
+  .pelican-color-footer {
+    margin-top: 2rem;
+  }
+  .pelican-footer-imgs img {
+    margin-bottom: 0;
+  }
+
+  .pelican-right-footer {
+    gap: 15%;
+    justify-content: center;
+  }
+
+  .pelican-footer-left-links {
+    gap: 10%;
+    width: 40%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 766px) {
+  .pelican-container {
+    max-width: 550px;
+  }
+  .pelican-color-footer {
+    font-size: 12.8px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .pelican-footer-left-links {
+    gap: 10%;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .pelican-right-footer {
+    flex-direction: column;
+    padding-left: 15%;
+    gap: 0%;
+  }
+
+  .pelican-footer-link-list {
+    min-width: 240px;
+  }
+
+  .pelican-container {
+    max-width: 300px;
+    padding: 0;
+    padding-top: 0rem;
+  }
+
+  .pelican-list-link {
+    margin-bottom: 0.8rem;
+  }
+
+  .pelican-footer-left-links {
+    gap: 10%;
+  }
+  .pelican-footer-imgs img {
+    max-width: 80%;
+  }
+
+  .pelican-footer-imgs {
+    align-items: center;
+  }
+
+  #portugal2020 {
+    margin-left: 6%;
+  }
+
+  #p1 {
+    margin-left: 6%;
+  }
+  .pelican-social-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 376px) {
+  .pelican-container {
+    max-width: 260px;
+  }
+  .pelican-footer-left-links {
+    gap: 0%;
+    width: 100vw;
+  }
+
+  #lisboa2020 {
+    margin-right: 3rem !important;
+  }
+
+  .pelican-social-links a {
+    padding-right: 0.5rem;
+}
+
+ /** .pelican-footer-left-links a {
+    padding-right: 1rem;
+} **/
+
+#privacy {
+   margin-right: 2rem;
+   margin-left: 2rem;
+}
+
+.pelican-color-footer {
+    font-size: 12px !important;
+}
+
+.allRights {
+    width: 100vw;
+    padding-left: 24%;
+}
+
+}
+
+.brk-pagination.brk-pagination-large {
+    margin-bottom: 3rem;
+}
+
+span.pelican-funcao-orador {
+    font-size: 0.9375rem;
+}
+
+/*
+.brk-team-staff__description {
+    height: 160px !important;
+}
+*/
+
+

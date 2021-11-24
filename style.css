@@ -1,0 +1,40 @@
+/*
+Theme Name: Berserk Child
+Theme URI: http://wp.berserk.nikadevs.com
+Author: NikaDevs
+Author URI: https://themeforest.net/user/nikadevs
+Description: Berserk - is a multipurpose WordPress Theme, created by people with 10+ years' experience in website development. It's fully responsive, based on the module structure. With this template, you are the one who defines what to use on your website. RTL Support.
+Version: 1.0.30
+Template: berserk
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: berserk
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+.heading_row .wpb_column {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.frontfont {
+    margin-top: -50px !important;
+    font-weight: bold;
+    font-size: 80px !important;;
+    z-index:10;
+}
+.backfont {
+    margin-top: -50px !important;
+
+    font-size: 120px !important;
+    color:rgba(0,0,0,0.1) !important;
+    z-index:0;
+}
+
+a.brk-social-links__item {
+    margin-right: 0.7rem;
+}
+
+nav.navigation.pagination {
+    margin-bottom: 4rem;
+}
+
